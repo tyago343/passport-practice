@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>Login</h1>
+   <form action="/login/logged" method="POST"> 
+       <input type="email" name="email" placeholder="E-mail"/>
+       <input type="password" name="password" placeholder="Password"/>
+       <input type="submit" value="Logear"/>
+   </form>
+   <a href="/"><button>Main page</button></a>
+  </body>
+</html>
